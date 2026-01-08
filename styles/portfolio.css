@@ -5,7 +5,7 @@
   /* border: 2px solid red; */
 }
 /* shared style */
-.font-open-sans{
+.font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -14,10 +14,10 @@
   font-weight: 900;
 }
 .color-orange {
-  color: #FD6E0A;
+  color: #fd6e0a;
 }
 .btn {
-  background-color: #FD6E0A;
+  background-color: #fd6e0a;
   border: none;
   padding: 18px 35px;
   border-radius: 5px;
@@ -41,16 +41,20 @@
   line-height: 30px;
   margin-bottom: 30px;
 }
+.text-center {
+  text-align: center;
+}
 
 /* main style */
 header {
-  background-color: #FFF8F3;
-  background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+  background-color: #fff8f3;
+  background: url(../images/developer.png), url(../images/header_bg.png),
+    #fff8f3;
   background-position: top left, right bottom;
   background-repeat: no-repeat;
   padding-top: 50px;
 }
-nav{
+nav {
   width: 71%;
   max-width: 1140px;
   margin: 0px auto;
@@ -104,14 +108,16 @@ nav .menu a {
   vertical-align: middle;
 }
 
-#about, #skills, #resume {
+#about,
+#skills,
+#resume {
   padding-top: 130px;
 }
 
 #about .about-container {
   width: 71%;
   max-width: 1140px;
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
   text-align: center;
   margin: 0 auto;
   padding: 131px 156px;
@@ -130,7 +136,6 @@ nav .menu a {
   line-height: 30px;
   color: #474747;
 }
-
 
 #skills .skills-container {
   width: 71%;
@@ -197,4 +202,43 @@ nav .menu a {
   font-size: 16px;
   color: #757575;
   line-height: 28px;
+}
+
+footer {
+  margin-top: 130px;
+  background-color: #fff8f3;
+  padding: 130px 0;
+}
+footer .footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+.footer-container .social {
+  max-width: 562px;
+}
+.footer-container h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #181818;
+}
+.footer-container p {
+  color: #474747;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.footer-container .icons a {
+  margin-right: 24px;
+}
+.footer-container .form input[type="text"],
+.footer-container .form textarea {
+  padding: 18px 30px;
+  width: 461px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
 }
